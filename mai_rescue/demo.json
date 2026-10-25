@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "mode": "demo",
+  "timezone": "Asia/Shanghai",
+  "captured_at": "2026-10-25T12:00:00+08:00",
+  "warnings": ["本页全部权益为合成演示数据，不代表麦当劳真实优惠、活动或积分。"],
+  "records": [
+    {"id":"demo-coffee","kind":"coupon","title":"午后咖啡小心意 · 演示券","expires_at":"2026-10-25T23:59:59+08:00","starts_at":null,"benefit_cents":600,"min_spend_cents":1500,"points":null,"conditions":["合成示例：指定餐品可用","不可与其他券叠加；使用前核对券面"],"source":{"tool":"query-my-coupons","ref":"demo/coupons/0"}},
+    {"id":"demo-lunch","kind":"coupon","title":"工作日午餐计划 · 演示券","expires_at":"2026-10-28","starts_at":null,"benefit_cents":1000,"min_spend_cents":3000,"points":null,"conditions":["合成示例：仅指定时段","单券潜在优惠不等于实际节省"],"source":{"tool":"query-my-coupons","ref":"demo/coupons/1"}},
+    {"id":"demo-points","kind":"points","title":"这周记得看看积分 · 演示","expires_at":"2026-10-30","starts_at":null,"benefit_cents":null,"min_spend_cents":null,"points":1200,"conditions":["合成示例：仅列出该批次到期积分","积分不折算为现金，也不会自动兑换"],"source":{"tool":"query-my-account","ref":"demo/points/0"}},
+    {"id":"demo-event","kind":"campaign","title":"周末相聚时光 · 演示活动","expires_at":"2026-10-31T18:00:00+08:00","starts_at":"2026-10-24","benefit_cents":null,"min_spend_cents":null,"points":null,"conditions":["合成示例：参与门店与规则以官方渠道为准"],"source":{"tool":"campaign-calendar","ref":"demo/campaigns/0"}},
+    {"id":"demo-budget","kind":"coupon","title":"多人分享券 · 演示券","expires_at":"2026-10-26","starts_at":null,"benefit_cents":2000,"min_spend_cents":8000,"points":null,"conditions":["合成示例：满80元才适用","不为用券增加预算"],"source":{"tool":"query-my-coupons","ref":"demo/coupons/2"}},
+    {"id":"demo-unknown","kind":"coupon","title":"日期待确认的小惊喜 · 演示券","expires_at":null,"starts_at":null,"benefit_cents":null,"min_spend_cents":null,"points":null,"conditions":["合成示例：响应未提供明确有效期，不生成日历提醒"],"source":{"tool":"available-coupons","ref":"demo/available/0"}},
+    {"id":"demo-expired","kind":"coupon","title":"已结束的周四心意 · 演示券","expires_at":"2026-10-24","starts_at":null,"benefit_cents":500,"min_spend_cents":2000,"points":null,"conditions":["用于演示自动排除过期记录"],"source":{"tool":"query-my-coupons","ref":"demo/coupons/3"}},
+    {"id":"demo-future","kind":"campaign","title":"下周的新期待 · 演示活动","expires_at":"2026-10-31","starts_at":"2026-10-29","benefit_cents":null,"min_spend_cents":null,"points":null,"conditions":["合成示例：尚未开始，不生成可立即使用建议"],"source":{"tool":"campaign-calendar","ref":"demo/campaigns/1"}}
+  ]
+}

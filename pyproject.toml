@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mai-rescue"
+version = "1.0.0"
+description = "麦麦不浪费：基于麦当劳 MCP 的优惠券、积分与活动到期行动助手"
+requires-python = ">=3.11"
+dependencies = []
+readme = "README.md"
+license = {text = "MIT (original project code only; see NOTICE.md)"}
+
+[project.scripts]
+mai-rescue = "mai_rescue.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["mai_rescue*"]
+
+[tool.setuptools.package-data]
+mai_rescue = ["demo.json"]

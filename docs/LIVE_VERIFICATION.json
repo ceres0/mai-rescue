@@ -1,0 +1,41 @@
+{
+  "verified_at": "2026-10-25T15:46:11.000899+00:00",
+  "server": "https://mcp.mcd.cn",
+  "transport": "Streamable HTTP",
+  "discovered_tools": 35,
+  "read_only_calls": [
+    {
+      "tool": "query-my-coupons",
+      "business_code": 200,
+      "result_type": "structuredContent",
+      "verified": true
+    },
+    {
+      "tool": "query-my-account",
+      "business_code": 200,
+      "result_type": "structuredContent",
+      "verified": true
+    },
+    {
+      "tool": "campaign-calendar",
+      "business_code": 200,
+      "result_type": "structuredContent",
+      "verified": true
+    },
+    {
+      "tool": "available-coupons",
+      "business_code": 200,
+      "result_type": "structuredContent",
+      "verified": true
+    },
+    {
+      "tool": "now-time-info",
+      "business_code": 200,
+      "result_type": "structuredContent",
+      "verified": true
+    }
+  ],
+  "side_effect_tools_called": false,
+  "includes_token_or_account_data": false,
+  "scope": "只证明本次真实只读调用成功；不保证未来字段或权益可用性，不代表已发布或报名。"
+}
